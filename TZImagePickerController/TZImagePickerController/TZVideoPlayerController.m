@@ -13,6 +13,7 @@
 #import "TZAssetModel.h"
 #import "TZImagePickerController.h"
 #import "TZPhotoPreviewController.h"
+#import "TZVideoPlayerController+Compress.h"
 
 @interface TZVideoPlayerController () {
     AVPlayer *_player;
@@ -25,6 +26,7 @@
     UIProgressView *_progress;
     
     UIStatusBarStyle _originStatusBarStyle;
+//    NSURL *_url;
 }
 @property (assign, nonatomic) BOOL needShowStatusBar;
 @end
@@ -69,6 +71,9 @@
     }];
     [[TZImageManager manager] getVideoWithAsset:_model.asset completion:^(AVPlayerItem *playerItem, NSDictionary *info) {
         dispatch_async(dispatch_get_main_queue(), ^{
+            // 保存下URL
+            AVURLAsset *urlAsset = (AVURLAsset *)playerItem.asset;
+            self->_url = urlAsset.URL;
             self->_player = [AVPlayer playerWithPlayerItem:playerItem];
             self->_playerLayer = [AVPlayerLayer playerLayerWithPlayer:self->_player];
             self->_playerLayer.frame = self.view.bounds;
@@ -112,7 +117,7 @@
     if (!_cover) {
         _doneButton.enabled = NO;
     }
-    [_doneButton addTarget:self action:@selector(doneButtonClick) forControlEvents:UIControlEventTouchUpInside];
+    [_doneButton addTarget:self action:@selector(nb_doneButtonClick) forControlEvents:UIControlEventTouchUpInside];
     TZImagePickerController *tzImagePickerVc = (TZImagePickerController *)self.navigationController;
     if (tzImagePickerVc) {
         [_doneButton setTitle:tzImagePickerVc.doneBtnTitleStr forState:UIControlStateNormal];
@@ -172,6 +177,14 @@
         [UIApplication sharedApplication].statusBarHidden = YES;
     } else {
         [self pausePlayerAndShowNaviBar];
+    }
+}
+
+- (void)nb_doneButtonClick {
+    if ([TZImagePickerConfig sharedInstance].isEnableVideoCompress) {
+        [self newDoneButtonClick];
+    }else {
+        [self doneButtonClick];
     }
 }
 

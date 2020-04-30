@@ -265,6 +265,12 @@
 - (void)configDefaultSetting {
     self.timeout = 15;
     self.photoWidth = 828.0;
+    self.isEnableVideoCompress = true;
+    self.maxVideoDuration = 180;
+    self.videoCompressBiteRate = @(1500);
+    self.videoCompressFrameRate = @(30);
+    self.videoCompressWidth = @(960);
+    self.videoCompressHeight = @(540);
     self.photoPreviewMaxWidth = 600;
     self.naviTitleColor = [UIColor whiteColor];
     self.naviTitleFont = [UIFont systemFontOfSize:17];
@@ -570,6 +576,36 @@
 - (void)setPhotoWidth:(CGFloat)photoWidth {
     _photoWidth = photoWidth;
     [TZImageManager manager].photoWidth = photoWidth;
+}
+
+- (void)setMaxVideoDuration:(NSInteger)maxVideoDuration {
+    _maxVideoDuration = maxVideoDuration;
+    [TZImageManager manager].maxVideoDuration = maxVideoDuration;
+}
+
+- (void)setVideoCompressBiteRate:(NSNumber *)videoCompressBiteRate {
+    _videoCompressBiteRate = videoCompressBiteRate;
+    [TZImageManager manager].videoCompressBiteRate = videoCompressBiteRate;
+}
+
+- (void)setVideoCompressFrameRate:(NSNumber *)videoCompressFrameRate {
+    _videoCompressFrameRate = videoCompressFrameRate;
+    [TZImageManager manager].videoCompressFrameRate = videoCompressFrameRate;
+}
+
+- (void)setVideoCompressWidth:(NSNumber *)videoCompressWidth {
+    _videoCompressWidth = videoCompressWidth;
+    [TZImageManager manager].videoCompressWidth = videoCompressWidth;
+}
+
+- (void)setVideoCompressHeight:(NSNumber *)videoCompressHeight {
+    _videoCompressHeight = videoCompressHeight;
+    [TZImageManager manager].videoCompressHeight = videoCompressHeight;
+}
+
+- (void)setIsEnableVideoCompress:(BOOL)isEnableVideoCompress {
+    _isEnableVideoCompress = isEnableVideoCompress;
+    [TZImagePickerConfig sharedInstance].isEnableVideoCompress = isEnableVideoCompress;
 }
 
 - (void)setSelectedAssets:(NSMutableArray *)selectedAssets {

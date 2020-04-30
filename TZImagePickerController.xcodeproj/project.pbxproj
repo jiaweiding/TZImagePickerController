@@ -7,12 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1EC37AD2245A8F6700EFB646 /* TZVideoCompressManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EC37AD1245A8F6600EFB646 /* TZVideoCompressManager.m */; };
+		1EC37AD5245A8FBC00EFB646 /* TZVideoPlayerController+Compress.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EC37AD4245A8FBC00EFB646 /* TZVideoPlayerController+Compress.m */; };
 		6D32B9BD1CD83640005CE1E0 /* LxGridViewFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D32B9BC1CD83640005CE1E0 /* LxGridViewFlowLayout.m */; };
 		6D4608311DFFC60D004FB009 /* TZGifPhotoPreviewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D4608301DFFC60D004FB009 /* TZGifPhotoPreviewController.m */; };
 		6D5358CD1D64600F00928CC6 /* NSBundle+TZImagePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D5358CC1D64600F00928CC6 /* NSBundle+TZImagePicker.m */; };
 		6DC358661CC8BAFD00898D29 /* TZImagePickerController.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 6DC358651CC8BAFD00898D29 /* TZImagePickerController.bundle */; };
 		6DC84D0A1DF5358500A107A9 /* TZImageCropManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DC84D091DF5358500A107A9 /* TZImageCropManager.m */; };
 		6DD0502B1DF659ED0057C78D /* TZProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DD0502A1DF659ED0057C78D /* TZProgressView.m */; };
+		7BF158B66A3128AAB7F8335E /* Pods_TZImagePickerController_TZImagePickerControllerUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA78E2918EC823F4F2C8B8CB /* Pods_TZImagePickerController_TZImagePickerControllerUITests.framework */; };
 		90020E1320F8840800D3AB10 /* TZImagePickerController.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 90020E1220F8840800D3AB10 /* TZImagePickerController.podspec */; };
 		90020E1520F8840F00D3AB10 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 90020E1420F8840E00D3AB10 /* README.md */; };
 		900E65811C2BB8D5003D9A9E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 900E65801C2BB8D5003D9A9E /* main.m */; };
@@ -72,6 +75,9 @@
 		9F763A771FA0741D00D9E526 /* TZImageCropManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 6DC84D081DF5358500A107A9 /* TZImageCropManager.h */; };
 		9F763A781FA0741D00D9E526 /* TZLocationManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 902938D61EE2D02C000F2F8F /* TZLocationManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9F763A791FA0741D00D9E526 /* UIView+Layout.h in Headers */ = {isa = PBXBuildFile; fileRef = 90EBF5D41C2E298000CB9BCC /* UIView+Layout.h */; };
+		C62F3113D2618D89781F13CA /* Pods_TZImagePickerController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB241E21D0B36043DAE74A31 /* Pods_TZImagePickerController.framework */; };
+		CF2C6E3AD728E1F53D135E3B /* Pods_TZImagePickerControllerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93D2994BBC50B2FA8755C533 /* Pods_TZImagePickerControllerTests.framework */; };
+		D175AA9FE06656D670E7E192 /* Pods_TZImagePickerControllerFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BB7E5B956F4EF755212DBED /* Pods_TZImagePickerControllerFramework.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -113,6 +119,16 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		0BB7E5B956F4EF755212DBED /* Pods_TZImagePickerControllerFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TZImagePickerControllerFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		155346E9451B504C141E02EF /* Pods-TZImagePickerControllerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TZImagePickerControllerTests.release.xcconfig"; path = "Target Support Files/Pods-TZImagePickerControllerTests/Pods-TZImagePickerControllerTests.release.xcconfig"; sourceTree = "<group>"; };
+		1A0450208B3354C994F7550F /* Pods-TZImagePickerController.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TZImagePickerController.debug.xcconfig"; path = "Target Support Files/Pods-TZImagePickerController/Pods-TZImagePickerController.debug.xcconfig"; sourceTree = "<group>"; };
+		1EC37AD0245A8F6600EFB646 /* TZVideoCompressManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZVideoCompressManager.h; sourceTree = "<group>"; };
+		1EC37AD1245A8F6600EFB646 /* TZVideoCompressManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TZVideoCompressManager.m; sourceTree = "<group>"; };
+		1EC37AD3245A8FBC00EFB646 /* TZVideoPlayerController+Compress.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TZVideoPlayerController+Compress.h"; sourceTree = "<group>"; };
+		1EC37AD4245A8FBC00EFB646 /* TZVideoPlayerController+Compress.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "TZVideoPlayerController+Compress.m"; sourceTree = "<group>"; };
+		209D68FB6EED17499D176009 /* Pods-TZImagePickerController.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TZImagePickerController.release.xcconfig"; path = "Target Support Files/Pods-TZImagePickerController/Pods-TZImagePickerController.release.xcconfig"; sourceTree = "<group>"; };
+		224B36B5C3BD87C71A525107 /* Pods-TZImagePickerControllerFramework.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TZImagePickerControllerFramework.release.xcconfig"; path = "Target Support Files/Pods-TZImagePickerControllerFramework/Pods-TZImagePickerControllerFramework.release.xcconfig"; sourceTree = "<group>"; };
+		236B783DFE1E2094BD8BB93D /* Pods-TZImagePickerController-TZImagePickerControllerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TZImagePickerController-TZImagePickerControllerUITests.release.xcconfig"; path = "Target Support Files/Pods-TZImagePickerController-TZImagePickerControllerUITests/Pods-TZImagePickerController-TZImagePickerControllerUITests.release.xcconfig"; sourceTree = "<group>"; };
 		6D12FC191D66B71E00182C44 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
 		6D12FC1A1D66B71E00182C44 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
 		6D32B9BB1CD83640005CE1E0 /* LxGridViewFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LxGridViewFlowLayout.h; sourceTree = "<group>"; };
@@ -180,8 +196,14 @@
 		90CE84B61C3BABB6003D0779 /* TZVideoPlayerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TZVideoPlayerController.m; sourceTree = "<group>"; };
 		90EBF5D41C2E298000CB9BCC /* UIView+Layout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Layout.h"; sourceTree = "<group>"; };
 		90EBF5D51C2E298000CB9BCC /* UIView+Layout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Layout.m"; sourceTree = "<group>"; };
+		93D2994BBC50B2FA8755C533 /* Pods_TZImagePickerControllerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TZImagePickerControllerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F763A421FA071CF00D9E526 /* TZImagePickerController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TZImagePickerController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F763A451FA071D000D9E526 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A3276D41C1E9D298719A1AA1 /* Pods-TZImagePickerController-TZImagePickerControllerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TZImagePickerController-TZImagePickerControllerUITests.debug.xcconfig"; path = "Target Support Files/Pods-TZImagePickerController-TZImagePickerControllerUITests/Pods-TZImagePickerController-TZImagePickerControllerUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		AB241E21D0B36043DAE74A31 /* Pods_TZImagePickerController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TZImagePickerController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD189F95A3459F9647A58831 /* Pods-TZImagePickerControllerFramework.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TZImagePickerControllerFramework.debug.xcconfig"; path = "Target Support Files/Pods-TZImagePickerControllerFramework/Pods-TZImagePickerControllerFramework.debug.xcconfig"; sourceTree = "<group>"; };
+		CA78E2918EC823F4F2C8B8CB /* Pods_TZImagePickerController_TZImagePickerControllerUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TZImagePickerController_TZImagePickerControllerUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB359708FA74A6CFF1AB9DC2 /* Pods-TZImagePickerControllerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TZImagePickerControllerTests.debug.xcconfig"; path = "Target Support Files/Pods-TZImagePickerControllerTests/Pods-TZImagePickerControllerTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -190,6 +212,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				903996931F447604005E77C2 /* Photos.framework in Frameworks */,
+				C62F3113D2618D89781F13CA /* Pods_TZImagePickerController.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -197,6 +220,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CF2C6E3AD728E1F53D135E3B /* Pods_TZImagePickerControllerTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -204,6 +228,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7BF158B66A3128AAB7F8335E /* Pods_TZImagePickerController_TZImagePickerControllerUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -211,6 +236,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D175AA9FE06656D670E7E192 /* Pods_TZImagePickerControllerFramework.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -234,6 +260,7 @@
 				9F763A431FA071D000D9E526 /* TZImagePickerControllerFramework */,
 				900E657D1C2BB8D5003D9A9E /* Products */,
 				903996911F447603005E77C2 /* Frameworks */,
+				D3C6CDF98B478C582CC48D6E /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -304,6 +331,8 @@
 		900EEFF51C2BBF7600EA709B /* TZImagePickerController */ = {
 			isa = PBXGroup;
 			children = (
+				1EC37AD0245A8F6600EFB646 /* TZVideoCompressManager.h */,
+				1EC37AD1245A8F6600EFB646 /* TZVideoCompressManager.m */,
 				900EEFF61C2BBF9500EA709B /* TZImagePickerController.h */,
 				900EEFF71C2BBF9500EA709B /* TZImagePickerController.m */,
 				900EEFFC1C2BD58B00EA709B /* TZPhotoPickerController.h */,
@@ -335,6 +364,8 @@
 				6D5358CB1D64600F00928CC6 /* NSBundle+TZImagePicker.h */,
 				6D5358CC1D64600F00928CC6 /* NSBundle+TZImagePicker.m */,
 				6DC358641CC8BAE300898D29 /* Resources */,
+				1EC37AD3245A8FBC00EFB646 /* TZVideoPlayerController+Compress.h */,
+				1EC37AD4245A8FBC00EFB646 /* TZVideoPlayerController+Compress.m */,
 			);
 			path = TZImagePickerController;
 			sourceTree = "<group>";
@@ -355,6 +386,10 @@
 			children = (
 				903996941F447609005E77C2 /* AssetsLibrary.framework */,
 				903996921F447604005E77C2 /* Photos.framework */,
+				AB241E21D0B36043DAE74A31 /* Pods_TZImagePickerController.framework */,
+				CA78E2918EC823F4F2C8B8CB /* Pods_TZImagePickerController_TZImagePickerControllerUITests.framework */,
+				0BB7E5B956F4EF755212DBED /* Pods_TZImagePickerControllerFramework.framework */,
+				93D2994BBC50B2FA8755C533 /* Pods_TZImagePickerControllerTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -373,6 +408,21 @@
 				9F763A451FA071D000D9E526 /* Info.plist */,
 			);
 			path = TZImagePickerControllerFramework;
+			sourceTree = "<group>";
+		};
+		D3C6CDF98B478C582CC48D6E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1A0450208B3354C994F7550F /* Pods-TZImagePickerController.debug.xcconfig */,
+				209D68FB6EED17499D176009 /* Pods-TZImagePickerController.release.xcconfig */,
+				A3276D41C1E9D298719A1AA1 /* Pods-TZImagePickerController-TZImagePickerControllerUITests.debug.xcconfig */,
+				236B783DFE1E2094BD8BB93D /* Pods-TZImagePickerController-TZImagePickerControllerUITests.release.xcconfig */,
+				BD189F95A3459F9647A58831 /* Pods-TZImagePickerControllerFramework.debug.xcconfig */,
+				224B36B5C3BD87C71A525107 /* Pods-TZImagePickerControllerFramework.release.xcconfig */,
+				DB359708FA74A6CFF1AB9DC2 /* Pods-TZImagePickerControllerTests.debug.xcconfig */,
+				155346E9451B504C141E02EF /* Pods-TZImagePickerControllerTests.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -407,10 +457,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 900E65A91C2BB8D5003D9A9E /* Build configuration list for PBXNativeTarget "TZImagePickerController" */;
 			buildPhases = (
+				AC5928E19F07DAFE3EFE579F /* [CP] Check Pods Manifest.lock */,
 				900E65781C2BB8D5003D9A9E /* Sources */,
 				900E65791C2BB8D5003D9A9E /* Frameworks */,
 				900E657A1C2BB8D5003D9A9E /* Resources */,
 				9F763A4E1FA071D000D9E526 /* Embed Frameworks */,
+				B2EDA62F9F436EF22C776231 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -426,6 +478,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 900E65AC1C2BB8D5003D9A9E /* Build configuration list for PBXNativeTarget "TZImagePickerControllerTests" */;
 			buildPhases = (
+				BFDAE7E247F979CDA8DE6BA8 /* [CP] Check Pods Manifest.lock */,
 				900E65911C2BB8D5003D9A9E /* Sources */,
 				900E65921C2BB8D5003D9A9E /* Frameworks */,
 				900E65931C2BB8D5003D9A9E /* Resources */,
@@ -444,9 +497,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 900E65AF1C2BB8D5003D9A9E /* Build configuration list for PBXNativeTarget "TZImagePickerControllerUITests" */;
 			buildPhases = (
+				695BA02E5DFAC451C8F689B6 /* [CP] Check Pods Manifest.lock */,
 				900E659C1C2BB8D5003D9A9E /* Sources */,
 				900E659D1C2BB8D5003D9A9E /* Frameworks */,
 				900E659E1C2BB8D5003D9A9E /* Resources */,
+				669B107CFE2E515881B8A202 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -462,6 +517,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9F763A4D1FA071D000D9E526 /* Build configuration list for PBXNativeTarget "TZImagePickerControllerFramework" */;
 			buildPhases = (
+				F991C244240359E018D7AEA6 /* [CP] Check Pods Manifest.lock */,
 				9F763A3D1FA071CF00D9E526 /* Sources */,
 				9F763A3E1FA071CF00D9E526 /* Frameworks */,
 				9F763A3F1FA071CF00D9E526 /* Headers */,
@@ -568,6 +624,133 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		669B107CFE2E515881B8A202 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TZImagePickerController-TZImagePickerControllerUITests/Pods-TZImagePickerController-TZImagePickerControllerUITests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TZImagePickerController-TZImagePickerControllerUITests/Pods-TZImagePickerController-TZImagePickerControllerUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		695BA02E5DFAC451C8F689B6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TZImagePickerController-TZImagePickerControllerUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AC5928E19F07DAFE3EFE579F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TZImagePickerController-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B2EDA62F9F436EF22C776231 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TZImagePickerController/Pods-TZImagePickerController-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TZImagePickerController/Pods-TZImagePickerController-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BFDAE7E247F979CDA8DE6BA8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TZImagePickerControllerTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F991C244240359E018D7AEA6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TZImagePickerControllerFramework-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		900E65781C2BB8D5003D9A9E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -585,6 +768,7 @@
 				900EF0161C2C134900EA709B /* TZPhotoPreviewCell.m in Sources */,
 				900E65871C2BB8D5003D9A9E /* ViewController.m in Sources */,
 				90CE84AE1C3A89EF003D0779 /* TZImageManager.m in Sources */,
+				1EC37AD5245A8FBC00EFB646 /* TZVideoPlayerController+Compress.m in Sources */,
 				901F2295215CABD600F604ED /* FLAnimatedImage.m in Sources */,
 				900E65841C2BB8D5003D9A9E /* AppDelegate.m in Sources */,
 				901F2296215CABD600F604ED /* FLAnimatedImageView.m in Sources */,
@@ -596,6 +780,7 @@
 				900EEFF81C2BBF9500EA709B /* TZImagePickerController.m in Sources */,
 				902938D81EE2D02C000F2F8F /* TZLocationManager.m in Sources */,
 				6DC84D0A1DF5358500A107A9 /* TZImageCropManager.m in Sources */,
+				1EC37AD2245A8F6700EFB646 /* TZVideoCompressManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -794,6 +979,7 @@
 		};
 		900E65AA1C2BB8D5003D9A9E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1A0450208B3354C994F7550F /* Pods-TZImagePickerController.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "";
@@ -818,6 +1004,7 @@
 		};
 		900E65AB1C2BB8D5003D9A9E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 209D68FB6EED17499D176009 /* Pods-TZImagePickerController.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "";
@@ -842,6 +1029,7 @@
 		};
 		900E65AD1C2BB8D5003D9A9E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DB359708FA74A6CFF1AB9DC2 /* Pods-TZImagePickerControllerTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = TZImagePickerControllerTests/Info.plist;
@@ -854,6 +1042,7 @@
 		};
 		900E65AE1C2BB8D5003D9A9E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 155346E9451B504C141E02EF /* Pods-TZImagePickerControllerTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = TZImagePickerControllerTests/Info.plist;
@@ -866,6 +1055,7 @@
 		};
 		900E65B01C2BB8D5003D9A9E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A3276D41C1E9D298719A1AA1 /* Pods-TZImagePickerController-TZImagePickerControllerUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = TZImagePickerControllerUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -878,6 +1068,7 @@
 		};
 		900E65B11C2BB8D5003D9A9E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 236B783DFE1E2094BD8BB93D /* Pods-TZImagePickerController-TZImagePickerControllerUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = TZImagePickerControllerUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -890,6 +1081,7 @@
 		};
 		9F763A4B1FA071D000D9E526 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BD189F95A3459F9647A58831 /* Pods-TZImagePickerControllerFramework.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
@@ -931,6 +1123,7 @@
 		};
 		9F763A4C1FA071D000D9E526 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 224B36B5C3BD87C71A525107 /* Pods-TZImagePickerControllerFramework.release.xcconfig */;
 			buildSettings = {
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;

@@ -44,6 +44,24 @@
 /// Default is 9 / 默认最大可选9张图片
 @property (nonatomic, assign) NSInteger maxImagesCount;
 
+/// Default is 180s / 默认视频最大时长180s
+@property (nonatomic, assign) NSInteger maxVideoDuration;
+
+/// 压缩视频至指定比特率(bps) 可传nil 默认1500kbps
+@property (nonatomic, strong) NSNumber *videoCompressBiteRate;
+
+/// 压缩视频至指定帧率 可传nil 默认30fps
+@property (nonatomic, strong) NSNumber *videoCompressFrameRate;
+
+/// 压缩视频至指定宽度 可传nil 默认960
+@property (nonatomic, strong) NSNumber *videoCompressWidth;
+
+/// 压缩视频至指定高度 可传nil 默认540
+@property (nonatomic, strong) NSNumber *videoCompressHeight;
+
+/// 是否开启压缩 默认true
+@property (nonatomic, assign) BOOL isEnableVideoCompress;
+
 /// The minimum count photos user must pick, Default is 0
 /// 最小照片必选张数,默认是0
 @property (nonatomic, assign) NSInteger minImagesCount;
@@ -318,6 +336,7 @@
 @property (assign, nonatomic) BOOL showPhotoCannotSelectLayer;
 @property (assign, nonatomic) BOOL notScaleImage;
 @property (assign, nonatomic) BOOL needFixComposition;
+@property (nonatomic, assign) BOOL isEnableVideoCompress;
 
 /// 默认是50，如果一个GIF过大，里面图片个数可能超过1000，会导致内存飙升而崩溃
 @property (assign, nonatomic) NSInteger gifPreviewMaxImagesCount;

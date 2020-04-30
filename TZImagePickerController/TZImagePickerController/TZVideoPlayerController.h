@@ -13,4 +13,8 @@
 
 @property (nonatomic, strong) TZAssetModel *model;
 
+@property (nonatomic, strong) NSURL *url;
+
+- (void)doneButtonClick;
+
 @end

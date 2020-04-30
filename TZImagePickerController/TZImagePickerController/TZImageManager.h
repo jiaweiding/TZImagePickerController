@@ -32,6 +32,21 @@
 /// The pixel width of output image, Default is 828px / 导出图片的宽度，默认828像素宽
 @property (nonatomic, assign) CGFloat photoWidth;
 
+/// Default is 180s / 默认视频最大时长180s
+@property (nonatomic, assign) NSInteger maxVideoDuration;
+
+/// 压缩视频至指定比特率(bps) 可传nil 默认1500kbps
+@property (nonatomic, strong) NSNumber *videoCompressBiteRate;
+
+/// 压缩视频至指定帧率 可传nil 默认30fps
+@property (nonatomic, strong) NSNumber *videoCompressFrameRate;
+
+/// 压缩视频至指定宽度 可传nil 默认960
+@property (nonatomic, strong) NSNumber *videoCompressWidth;
+
+/// 压缩视频至指定高度 可传nil 默认540
+@property (nonatomic, strong) NSNumber *videoCompressHeight;
+
 /// Default is 4, Use in photos collectionView in TZPhotoPickerController
 /// 默认4列, TZPhotoPickerController中的照片collectionView
 @property (nonatomic, assign) NSInteger columnNumber;

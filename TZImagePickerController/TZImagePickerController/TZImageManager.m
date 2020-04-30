@@ -46,6 +46,26 @@ static dispatch_once_t onceToken;
     TZScreenWidth = photoWidth / 2;
 }
 
+- (void)setMaxVideoDuration:(NSInteger)maxVideoDuration {
+    _maxVideoDuration = maxVideoDuration;
+}
+
+- (void)setVideoCompressBiteRate:(NSNumber *)videoCompressBiteRate {
+    _videoCompressBiteRate = videoCompressBiteRate;
+}
+
+- (void)setVideoCompressFrameRate:(NSNumber *)videoCompressFrameRate {
+    _videoCompressFrameRate = videoCompressFrameRate;
+}
+
+- (void)setVideoCompressWidth:(NSNumber *)videoCompressWidth {
+    _videoCompressWidth = videoCompressWidth;
+}
+
+- (void)setVideoCompressHeight:(NSNumber *)videoCompressHeight {
+    _videoCompressHeight = _videoCompressHeight;
+}
+
 - (void)setColumnNumber:(NSInteger)columnNumber {
     [self configTZScreenWidth];
 

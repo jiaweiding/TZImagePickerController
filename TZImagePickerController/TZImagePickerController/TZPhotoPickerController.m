@@ -609,6 +609,11 @@ static CGFloat itemMargin = 5;
             TZImagePickerController *imagePickerVc = (TZImagePickerController *)self.navigationController;
             [imagePickerVc showAlertWithTitle:[NSBundle tz_localizedStringForKey:@"Can not choose both video and photo"]];
         } else {
+            if (model.asset.duration >= [TZImageManager manager].maxVideoDuration) {
+                TZImagePickerController *imagePickerVc = (TZImagePickerController *)self.navigationController;
+                [imagePickerVc showAlertWithTitle:[NSBundle tz_localizedStringForKey:@"不能选择超过3分钟的视频"]];
+                return;
+            }
             TZVideoPlayerController *videoPlayerVc = [[TZVideoPlayerController alloc] init];
             videoPlayerVc.model = model;
             [self.navigationController pushViewController:videoPlayerVc animated:YES];
