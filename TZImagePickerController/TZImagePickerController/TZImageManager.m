@@ -63,7 +63,7 @@ static dispatch_once_t onceToken;
 }
 
 - (void)setVideoCompressHeight:(NSNumber *)videoCompressHeight {
-    _videoCompressHeight = _videoCompressHeight;
+    _videoCompressHeight = videoCompressHeight;
 }
 
 - (void)setColumnNumber:(NSInteger)columnNumber {
