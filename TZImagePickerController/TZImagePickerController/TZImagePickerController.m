@@ -267,7 +267,7 @@
     self.photoWidth = 828.0;
     self.isEnableVideoCompress = true;
     self.maxVideoDuration = 180;
-    self.videoCompressBiteRate = @(1500);
+    self.videoCompressBiteRate = @(1500 * 1024);
     self.videoCompressFrameRate = @(30);
     self.videoCompressWidth = @(960);
     self.videoCompressHeight = @(540);

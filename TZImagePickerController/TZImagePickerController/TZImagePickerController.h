@@ -47,7 +47,7 @@
 /// Default is 180s / 默认视频最大时长180s
 @property (nonatomic, assign) NSInteger maxVideoDuration;
 
-/// 压缩视频至指定比特率(bps) 可传nil 默认1500kbps
+/// 压缩视频至指定比特率(bps) 可传nil 默认(1500 * 1024)kbps
 @property (nonatomic, strong) NSNumber *videoCompressBiteRate;
 
 /// 压缩视频至指定帧率 可传nil 默认30fps
